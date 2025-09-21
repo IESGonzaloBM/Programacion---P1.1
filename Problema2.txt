@@ -1,0 +1,9 @@
+Inicio
+
+p = [Numero aleatorio perteneciente a todo N ingresado por el usuario]
+
+Para i en (1...10) Hacer:
+	Escribe i * p
+	Salto de linea
+
+Fin

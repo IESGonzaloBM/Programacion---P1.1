@@ -1,0 +1,11 @@
+Inicio
+
+p = [Numero aleatorio perteneciente a todo N ingresado por el usuario]
+
+// Todo numero es par si su resto es 0
+Si p % 2 == 0 Entonces:
+	Escribir "Es par" 
+Sino:
+	Escribir "Es impar"
+
+Fin

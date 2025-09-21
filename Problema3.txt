@@ -1,0 +1,21 @@
+Inicio
+
+p = [Numero aleatorio perteneciente a todo N ingresado por el usuario]
+
+// Todo numero es primo si es divisible entre 1 y el mismo para todo numero N
+primo = Verdadero
+
+Si p <= 1 Entonces: 
+	Escribir "Numero menor o igual a 1"
+Sino:
+	Para i en (2...p-1) Hacer:
+	Si p % i == 0 Entonces:
+		primo = Falso
+		Romper el bucle // Para optimizar el proceso
+
+	Si primo == Verdadero Entonces:
+		Escribir "Es primo"
+	Sino:
+		Escribir "No es primo" 
+	Fin
+Fin
